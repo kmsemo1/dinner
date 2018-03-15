@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conditional Statements</title>
+</head>
+<body>
+    
+
+<script type="text/javascript">
+
+     // ask user if they want steak
+    var eatSteak = confirm("Do you like steak?");
+    // alert(eatSteak);
+    // option for steak, another if they chose no
+    if (eatSteak) {
+        document.write("User likes steak!");
+    } else {
+        document.write("User hates steak!");
+    }
+
+    
+    // ask user what year theyre born
+    var drinkSake = prompt("What year were you born?")
+    // if 21 then ok to have sake if else under 21 then no sake
+    if (drinkSake < 1997) {
+        alert(" Pour some sake!");
+    } else if(drinkSake = 1997) {
+        alert(" Barely 21... drinks on you.");
+    } else {
+        alert(" You too young... Go home.");
+    }
+
+
+
+</script>
+
+</body>
+</html>
